@@ -1,0 +1,43 @@
+:root {
+    --fuente-principal: 'Josefin Sans', sans-serif;
+}
+body {
+    background-color: #818BEA;
+    font-family: var(--fuente-principal);
+
+}
+
+#containerIntro {
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#imgStiker{
+    width: 100%;
+    height: 100%;
+}
+
+#cont-start{
+    position: absolute;
+    min-height: 220px;
+    max-width: 10%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+#btnStart{
+    padding: 9% 90%;
+    background-color: #D93D2C;
+    border-radius: 10px 20px 10px 30px;
+    color: white;
+    text-decoration: none;
+    border: 0.15rem solid black;
+    font-size: 1.2rem;
+}
